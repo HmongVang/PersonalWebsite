@@ -1,0 +1,132 @@
+.navbar ul{
+    list-style-type: none;
+    text-align: center;
+    margin: -10px;
+}
+
+.navbar ul li{
+    display: inline-block;
+    font-size: 50px;
+    margin: 25px;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: gold;
+}
+
+body{
+    background-color: black;
+}
+
+.homebox1{
+    height: 90vh;
+    width: 100%;
+    background-image: url(pics/me7.PNG);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    display: table;
+    margin-top: -10px;
+}
+
+.homebox2{
+    height: 90vh;
+    width: 100%;
+    background-image: url(pics/me6.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    display: table;
+}
+
+.homebox3{
+    height: 90vh;
+    width: 100%;
+    background-image: url();
+    background-size: cover;
+    background-attachment: fixed;
+    display: table;
+}
+
+.homebox4{
+    height: 90vh;
+    width: 100%;
+    background-image: url();
+    background-size: cover;
+    background-attachment: fixed;
+    display: table;
+}
+
+.homebox5{
+    height: 90vh;
+    width: 100%;
+    background-image: url();
+    background-size: cover;
+    background-attachment: fixed;
+    display: table;
+}
+
+.homeheading1{
+    font-size: 80px;
+    list-style-type: none;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    color: gold;
+}
+
+.homeheading2{
+    font-size: 80px;
+    list-style-type: none;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    color: gold;
+}
+
+/*Home*/
+
+p{
+    color: gold;
+    font-size: 30px;
+}
+
+.aboutmepic1{
+    margin-right: -190px;
+    margin-left: 200px;
+}
+
+.aboutmepic2{
+    margin-left: 200px;
+}
+
+.aboutmepic3{
+    margin-left: 10px;
+}
+
+/*About Me*/
+
+.resumeheader{
+    color: gold;
+}
+
+.resumeeducation{
+    color: gold;
+}
+
+.resumeworkexp{
+    color: gold;
+}
+
+.resumecertifications{
+    color: gold;
+}
+
+.resumereferences{
+    color: gold;
+}
+/*Resume*/
+
+/*Portfolio*/
+
+/*Contact*/
