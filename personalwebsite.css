@@ -86,22 +86,70 @@ body{
 
 /*Home*/
 
-p{
+.aboutmep1{
     color: gold;
     font-size: 30px;
+    text-indent: 50px;
+    margin: 80px;
+}
+
+.aboutmep2{
+    color: gold;
+    font-size: 30px;
+    text-indent: 50px;
+    margin: 80px;
+    margin-bottom: -1px;
+}
+
+.aboutmep3{
+    color: gold;
+    font-size: 30px;
+    text-indent: 50px;
+    margin: 80px;
+    margin-bottom: -1px;
+}
+
+.aboutmep4{
+    color: gold;
+    font-size: 30px;
+    text-indent: 50px;
+    margin: 80px;
+    margin-bottom: -1px;;
 }
 
 .aboutmepic1{
     margin-right: -190px;
-    margin-left: 200px;
+    margin-left: 100px;
+    margin-top: 100px;
 }
 
 .aboutmepic2{
-    margin-left: 200px;
+    margin-left: 220px;
+    margin-right: 20px;
 }
 
 .aboutmepic3{
     margin-left: 10px;
+}
+
+.aboutmepic4{
+    margin: 20px;
+    margin-left: 175px;
+}
+
+.aboutmepic5{
+    margin: 20px;
+    margin-left: 0px;
+    
+}
+
+.aboutmepic6{
+    margin: 20x;
+}
+
+.aboutmepic7{
+    margin: 20px;
+    
 }
 
 /*About Me*/
@@ -125,8 +173,78 @@ p{
 .resumereferences{
     color: gold;
 }
+
 /*Resume*/
 
-/*Portfolio*/
+.buttonSlides{
+    position: relative;
+}
+
+.leftButton{
+    position:absolute;
+    top: 50%;
+    left: 0%;
+    transform: translate(300%,8500%);
+    color: gold;
+    background-color: black;
+}
+
+.rightButton{
+    position: absolute;
+    top: 50%;
+    right: 0%;
+    transform: translate(-250%, 8500%);
+    color: gold;
+    background-color: black;
+}
+
+.showcasePics{
+    width: 90%;
+    margin-left: 100px;
+}
+
+.showcaseh{
+    color: gold;
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-size: 15px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.portp{
+    color: gold;
+}
+
+/*Portfolio - Web Projects*/
+
+.writingh1{
+    color: gold;
+    text-align: center;
+}
+
+.writingh2{
+    color: gold;
+    text-align: left;
+}
+
+.writingh3{
+    color: gold;
+    text-align: left;
+}
+
+
+.writingh4{
+    color: gold;
+}
+
+.writingp{
+    color: gold;
+    text-align: left;
+    text-indent: 50px;
+}
+
+/*Portfolio - Writing*/
 
 /*Contact*/
