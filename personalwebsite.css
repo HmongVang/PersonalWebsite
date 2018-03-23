@@ -16,7 +16,8 @@
 }
 
 body{
-    background-color: black;
+    background-image: url(pics/blackbackground.jpg);
+    position:static ;
 }
 
 .homebox1{
@@ -219,32 +220,43 @@ body{
 
 /*Portfolio - Web Projects*/
 
-.writingh1{
-    color: gold;
-    text-align: center;
+.writingExamples{
+    height: 200vh;
 }
 
-.writingh2{
-    color: gold;
-    text-align: left;
-}
-
-.writingh3{
-    color: gold;
-    text-align: left;
-}
-
-
-.writingh4{
-    color: gold;
-}
-
-.writingp{
-    color: gold;
-    text-align: left;
-    text-indent: 50px;
+.PDF{
+    width: 900px;
+    height: 1000px;
+    margin-left: 500px;
+    margin-top: 20px;
 }
 
 /*Portfolio - Writing*/
+
+.circleimg{
+    border: 5px;
+    border-radius: 50%;
+    width: 400px;
+    height: 400px;
+    margin-left: 750px;
+    margin-top: 100px;
+}
+
+.socialmedia{
+    margin-left: 640px;
+}
+
+.contact{
+    color: gold;
+    text-align: center;
+    margin: 20px;
+    margin-top: 30px;
+    font-size: 30px;
+}
+
+.contactp{
+    color: gold;
+    font-size: 30px
+}
 
 /*Contact*/
