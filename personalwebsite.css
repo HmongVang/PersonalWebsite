@@ -1,24 +1,47 @@
+/*All pages*/
+
+@import url('https://fonts.googleapis.com/css?family=Arimo');
+
+.navbar{
+    overflow: hidden;
+    margin-top: 30px;
+    font-family: 'Arimo', sans-serif;
+}
+
 .navbar ul{
     list-style-type: none;
     text-align: center;
     margin: -10px;
 }
 
-.navbar ul li{
+.navbar li{
     display: inline-block;
     font-size: 50px;
-    margin: 25px;
+    margin: 20px;
 }
 
-.navbar ul li a{
+.navbar a{
     text-decoration: none;
     color: gold;
+    display: block;
+    padding: 10px;
+}
+
+.navbar a:hover{
+    background-color: gold;
+    color: black;
+}
+
+.navbar a.active{
+    text-decoration: underline;
 }
 
 body{
     background-image: url(pics/blackbackground.jpg);
-    position:static ;
+    position: static ;
 }
+
+/*Home*/
 
 .homebox1{
     height: 90vh;
@@ -74,6 +97,7 @@ body{
     text-align: center;
     vertical-align: middle;
     color: gold;
+    font-family: 'Arimo', sans-serif;
 }
 
 .homeheading2{
@@ -83,15 +107,21 @@ body{
     text-align: center;
     vertical-align: middle;
     color: gold;
+    font-family: 'Arimo', sans-serif;
 }
 
-/*Home*/
+/*About Me*/
+
+.aboutmebody{
+    height: 300vh;
+}
 
 .aboutmep1{
     color: gold;
     font-size: 30px;
     text-indent: 50px;
     margin: 80px;
+    font-family: 'Arimo', sans-serif;
 }
 
 .aboutmep2{
@@ -100,6 +130,7 @@ body{
     text-indent: 50px;
     margin: 80px;
     margin-bottom: -1px;
+    font-family: 'Arimo', sans-serif;
 }
 
 .aboutmep3{
@@ -108,6 +139,7 @@ body{
     text-indent: 50px;
     margin: 80px;
     margin-bottom: -1px;
+    font-family: 'Arimo', sans-serif;
 }
 
 .aboutmep4{
@@ -116,6 +148,7 @@ body{
     text-indent: 50px;
     margin: 80px;
     margin-bottom: -1px;;
+    font-family: 'Arimo', sans-serif;
 }
 
 .aboutmepic1{
@@ -146,36 +179,62 @@ body{
 
 .aboutmepic6{
     margin: 20x;
+    margin-top: 30px;
 }
 
 .aboutmepic7{
     margin: 20px;
-    
 }
 
-/*About Me*/
+.aboutmepic8{
+    margin: 20px;
+    margin-left: 300px;
+}
+
+.aboutmepic9{
+    margin: 20px;
+    margin-left: 250px;
+}
+
+.videogames{
+    margin: 10px;
+    max-height: 250px;
+}
+
+/*Resume*/
 
 .resumeheader{
     color: gold;
+    font-family: 'Arimo', sans-serif;
 }
 
 .resumeeducation{
     color: gold;
+    font-family: 'Arimo', sans-serif;
 }
 
 .resumeworkexp{
     color: gold;
+    font-family: 'Arimo', sans-serif;
 }
 
 .resumecertifications{
     color: gold;
+    font-family: 'Arimo', sans-serif;
 }
 
 .resumereferences{
     color: gold;
+    font-family: 'Arimo', sans-serif;
 }
 
-/*Resume*/
+/*Portfolio - Web Projects*/
+
+.ryu{
+    max-height: 600px;
+    padding: 20px;
+    margin-left: 5px;
+}
 
 .buttonSlides{
     position: relative;
@@ -207,18 +266,25 @@ body{
 .showcaseh{
     color: gold;
     position: absolute;
-    right: 0;
-    top: 0;
-    font-size: 15px;
+    right: 830px;
+    top: 500px;
+    font-size: 25px;
     padding-top: 16px;
     padding-bottom: 16px;
+    padding: 10px;
+    text-align: center;
+    border: 5px;
+    border-style: solid;
 }
 
 .portp{
     color: gold;
+    font-family: 'Arimo', sans-serif;
+    font-size: 30px;
+    text-indent: 50px;
 }
 
-/*Portfolio - Web Projects*/
+/*Portfolio - Writing*/
 
 .writingExamples{
     height: 200vh;
@@ -231,7 +297,22 @@ body{
     margin-top: 20px;
 }
 
-/*Portfolio - Writing*/
+/*Portfolio - Artwork, Photography, and Photoshop*/
+
+.digitalworkheading{
+    color: gold;
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Arimo', sans-serif;
+}
+
+.digitalworksubheading{
+    color: gold;
+    font-size: 30px;
+    font-family: 'Arimo', sans-serif;
+}
+
+/*Contact*/
 
 .circleimg{
     border: 5px;
@@ -252,11 +333,12 @@ body{
     margin: 20px;
     margin-top: 30px;
     font-size: 30px;
+    font-family: 'Arimo', sans-serif;
 }
 
 .contactp{
     color: gold;
-    font-size: 30px
+    font-size: 30px;
+    font-family: 'Arimo', sans-serif;
+    text-indent: 50px;
 }
-
-/*Contact*/
