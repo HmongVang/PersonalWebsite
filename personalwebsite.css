@@ -5,26 +5,18 @@
 .navbar{
     overflow: hidden;
     margin-top: 30px;
+    margin-left: 500px;
     font-family: 'Arimo', sans-serif;
-}
-
-.navbar ul{
-    list-style-type: none;
-    text-align: center;
-    margin: -10px;
-}
-
-.navbar li{
-    display: inline-block;
-    font-size: 50px;
-    margin: 20px;
+    padding: 10px;
 }
 
 .navbar a{
     text-decoration: none;
     color: gold;
     display: block;
-    padding: 10px;
+    padding: 15px;
+    float: left;
+    font-size: 40px;
 }
 
 .navbar a:hover{
@@ -34,6 +26,56 @@
 
 .navbar a.active{
     text-decoration: underline;
+}
+
+.dropdown{
+    overflow: hidden;
+    float: left;
+    font-size: 10px;
+    color: gold;
+    border: none;
+    outline: none;
+    background-color: inherit;
+}
+
+.dropbtn{
+    border: none;
+    outline: none;
+    background-color: inherit;
+    color: gold;
+    float: left;
+    font-size: 40px;
+    margin-top: 13px;
+}
+
+.dropbtn:hover{
+    background-color: gold;
+    color: black;
+}
+
+.dropdown-content{
+    display: none;
+    position: absolute;
+    z-index: 1;
+    background-color: gold;
+    margin-top: 55px;
+    margin-left: -110px;
+}
+
+.dropdown-content a{
+    color: black;
+    text-decoration: none;
+    display: block;
+    font-size: 15px;
+}
+
+.dropdown-content a:hover{
+    background-color: black;
+    color: gold;
+}
+
+.dropdown:hover .dropdown-content{
+    display: block;
 }
 
 body{
@@ -290,11 +332,41 @@ body{
     height: 200vh;
 }
 
-.PDF{
+.writingh1{
+    font-family: 'Arimo', sans-serif;
+    color: gold;
+    font-size: 60px;
+    text-align: center;
+}
+
+.PDF1{
     width: 900px;
     height: 1000px;
     margin-left: 500px;
     margin-top: 20px;
+}
+
+.PDF2{
+    width: 900px;
+    height: 1000px;
+    margin-left: 500px;
+    margin-top: 500px;
+}
+
+.writingexamplep1{
+    font-family: 'Arimo', sans-serif;
+    color: gold;
+    font-size: 25px;
+    max-width: 450px;
+    margin-top: -750px;
+    margin-left: 20px;
+}
+
+.writingexamplep2{
+    font-family: 'Arimo', sans-serif;
+    color: gold;
+    font-size: 25px;
+    max-width: 450px;
 }
 
 /*Portfolio - Artwork, Photography, and Photoshop*/

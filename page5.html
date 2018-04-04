@@ -7,15 +7,20 @@
 </head>
 
 <header>
-    <nav class="navbar">
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="page2.html">About Me</a></li>
-            <li><a href="page3.html">Resume</a></li>
-            <li><a href="page4.html">Portfolio</a></li>
-            <li><a href="page5.html" class="active">Contact</a></li>
-        </ul>
-    </nav>    
+    <div class="navbar">
+        <a href="index.html" class="active">Home</a>
+        <a href="page2.html">About Me</a>
+        <a href="page3.html">Resume</a>
+        <div class="dropdown">
+            <button class="dropbtn">Portfolio</button>
+            <div class="dropdown-content">
+                <a href="page4.html">Web Projects</a>
+                <a href="page4.2.html">Writing Examples</a>
+                <a href="page4.3.html">Digital Work</a>
+            </div>
+        </div>
+        <a href="page5.html">Contact</a>
+    </div>    
 </header>
 
 <body>
