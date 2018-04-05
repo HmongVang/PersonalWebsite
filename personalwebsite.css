@@ -78,6 +78,13 @@
     display: block;
 }
 
+.arrow{
+    max-height: 30px;
+    margin-top: 13.4px;
+    margin-left: -5px;
+    padding: 6px;
+}
+
 body{
     background-image: url(pics/blackbackground.jpg);
     position: static ;
@@ -216,7 +223,6 @@ body{
 .aboutmepic5{
     margin: 20px;
     margin-left: 0px;
-    
 }
 
 .aboutmepic6{
@@ -245,32 +251,55 @@ body{
 
 /*Resume*/
 
+.resume{
+    margin-left: 60px;
+}
+
 .resumeheader{
     color: gold;
     font-family: 'Arimo', sans-serif;
+    margin-left: 200px;
 }
 
 .resumeeducation{
     color: gold;
     font-family: 'Arimo', sans-serif;
+    margin-left: 200px;
 }
 
 .resumeworkexp{
     color: gold;
     font-family: 'Arimo', sans-serif;
+    margin-left: 800px;
+    margin-top: -322px;
 }
 
 .resumecertifications{
     color: gold;
     font-family: 'Arimo', sans-serif;
+    margin-top: -95px;
+    margin-left: 200px;
 }
 
 .resumereferences{
     color: gold;
     font-family: 'Arimo', sans-serif;
+    margin-left: 200px;
+}
+
+.resumesubtitles{
+    font-size: 24px;
+    text-decoration: underline;
 }
 
 /*Portfolio - Web Projects*/
+
+.porth1{
+    font-size: 60px;
+    font-family: 'Arimo', sans-serif;
+    color: gold;
+    text-align: center;
+}
 
 .ryu{
     max-height: 600px;
@@ -284,7 +313,7 @@ body{
 
 .leftButton{
     position:absolute;
-    top: 50%;
+    top: -50%;
     left: 0%;
     transform: translate(300%,8500%);
     color: gold;
@@ -293,7 +322,7 @@ body{
 
 .rightButton{
     position: absolute;
-    top: 50%;
+    top: -50%;
     right: 0%;
     transform: translate(-250%, 8500%);
     color: gold;
@@ -309,7 +338,7 @@ body{
     color: gold;
     position: absolute;
     right: 830px;
-    top: 500px;
+    top: 400px;
     font-size: 25px;
     padding-top: 16px;
     padding-bottom: 16px;
@@ -326,10 +355,25 @@ body{
     text-indent: 50px;
 }
 
+.redpandahtml{
+    margin-left: 250px;
+}
+
+.redpandacss1{
+    max-width: 1200px;
+    margin-left: 12px;
+}
+
+.redpandacss2{
+    max-height: 790px;
+    margin-right: -300px;
+    
+}
+
 /*Portfolio - Writing*/
 
 .writingExamples{
-    height: 200vh;
+    height: 250vh;
 }
 
 .writingh1{
@@ -367,6 +411,8 @@ body{
     color: gold;
     font-size: 25px;
     max-width: 450px;
+    margin-left: 1430px;
+    margin-top: -650px;
 }
 
 /*Portfolio - Artwork, Photography, and Photoshop*/
@@ -378,10 +424,19 @@ body{
     font-family: 'Arimo', sans-serif;
 }
 
+.photography{
+    margin-left: 35px;
+}
+
+.photoshop{
+    margin-left: 40px;
+}
+
 .digitalworksubheading{
     color: gold;
     font-size: 30px;
     font-family: 'Arimo', sans-serif;
+    margin-left: 40px;
 }
 
 /*Contact*/
@@ -392,7 +447,6 @@ body{
     width: 400px;
     height: 400px;
     margin-left: 750px;
-    margin-top: 100px;
 }
 
 .socialmedia{
@@ -403,7 +457,7 @@ body{
     color: gold;
     text-align: center;
     margin: 20px;
-    margin-top: 30px;
+    margin-top: 10px;
     font-size: 30px;
     font-family: 'Arimo', sans-serif;
 }
@@ -413,4 +467,5 @@ body{
     font-size: 30px;
     font-family: 'Arimo', sans-serif;
     text-indent: 50px;
+    margin-top: -55px;
 }
