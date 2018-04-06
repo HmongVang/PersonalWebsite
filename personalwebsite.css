@@ -58,7 +58,7 @@
     position: absolute;
     z-index: 1;
     background-color: gold;
-    margin-top: 55px;
+    margin-top: 60px;
     margin-left: -110px;
 }
 
@@ -115,7 +115,7 @@ body{
 .homebox3{
     height: 90vh;
     width: 100%;
-    background-image: url();
+    background-image: url(pics/me8.jpg);
     background-size: cover;
     background-attachment: fixed;
     display: table;
@@ -124,14 +124,14 @@ body{
 .homebox4{
     height: 90vh;
     width: 100%;
-    background-image: url();
+    background-image: url(pics/forest.jpg);
     background-size: cover;
     background-attachment: fixed;
     display: table;
 }
 
 .homebox5{
-    height: 90vh;
+    height: 100vh;
     width: 100%;
     background-image: url();
     background-size: cover;
@@ -425,18 +425,27 @@ body{
 }
 
 .photography{
-    margin-left: 35px;
+    margin-left: 300px;
+}
+
+.photography4{
+    padding: 10px;
+    margin-left: 300px;
 }
 
 .photoshop{
-    margin-left: 40px;
+    margin-left: 300px;
+}
+
+.photoshop3{
+    margin-left: 400px;
 }
 
 .digitalworksubheading{
     color: gold;
     font-size: 30px;
     font-family: 'Arimo', sans-serif;
-    margin-left: 40px;
+    margin-left: 300px;
 }
 
 /*Contact*/
@@ -451,6 +460,7 @@ body{
 
 .socialmedia{
     margin-left: 640px;
+    margin-top: -20px;
 }
 
 .contact{
@@ -467,5 +477,7 @@ body{
     font-size: 30px;
     font-family: 'Arimo', sans-serif;
     text-indent: 50px;
-    margin-top: -55px;
+    margin-top: -75px;
+    max-width: 1500px;
+    margin-left: 200px;
 }
