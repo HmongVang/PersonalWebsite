@@ -292,6 +292,20 @@ body{
     text-decoration: underline;
 }
 
+.letterofrec1{
+    width: 850px;
+    height: 1000px;
+    margin-left: 60px;
+    margin-top: 0px;
+}
+
+.letterofrec2{
+    width: 850px;
+    height: 1000px;
+    margin-left: 960px;
+    margin-top: -1000px;
+}
+
 /*Portfolio - Web Projects*/
 
 .porth1{
