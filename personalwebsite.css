@@ -292,6 +292,20 @@ body{
     text-decoration: underline;
 }
 
+.pdf1{
+    width: 900px;
+    height: 1000px;
+    margin-left: 500px;
+    margin-top: 20px;
+}
+
+.pdf2{
+    width: 900px;
+    height: 1000px;
+    margin-left: 500px;
+    margin-top:10px;
+}
+
 /*Portfolio - Web Projects*/
 
 .porth1{
